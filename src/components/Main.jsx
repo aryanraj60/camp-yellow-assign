@@ -27,11 +27,11 @@ const Main = () => {
             </button>
           </div>
 
-          <p className="text-blue-500 my-4 cursor-pointer underline">
+          <p className="text-blue-500 my-6 cursor-pointer underline">
             Download sample files by clicking here
           </p>
 
-          <button className="py-3 px-10 my-3 rounded-lg bg-gradient-to-l text-white from-blue-500 to-red-400">
+          <button className="py-3 px-10 my-2 rounded-lg bg-gradient-to-l text-white from-blue-500 to-red-400">
             Click to build the game
           </button>
           <div className="my-3">
@@ -43,15 +43,13 @@ const Main = () => {
               trailColor="#F5F5F5"
               className="rounded-md"
             />
-            <p className="text-white text-base pl-2 py-2">
-              02:00 minutes remaining
-            </p>
+            <p className="text-white text-base py-2">02:00 minutes remaining</p>
           </div>
         </div>
       </div>
 
       <div className="flex flex-col gap-2 items-center">
-        {/* YOUTUBE VIDEO EMBED CODE */}
+        {/* CODE TO EMBED YOUTUBE VIDEO */}
         <EmbedVideo />
         <p className="text-center text-white text-xl font-medium">
           Check out the demo to get started
